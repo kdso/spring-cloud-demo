@@ -1,0 +1,37 @@
+--- #表示开始，用以区分多个文件
+spring:
+  profiles: peer1
+server:
+  port: 8761 # 指定该Eureka实例的端口
+eureka:
+  instance:
+    hostname: peer1 # 指定该Eureka实例的主机名
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/，http://peer3:8763/eureka/
+
+---
+spring:
+  profiles: peer2
+server:
+  port: 8762 # 指定该Eureka实例的端口
+eureka:
+  instance:
+    hostname: peer2 # 指定该Eureka实例的主机名
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/，http://peer3:8763/eureka/
+...
+---
+spring:
+  profiles: peer3
+server:
+  port: 8763 # 指定该Eureka实例的端口
+eureka:
+  instance:
+    hostname: peer3 # 指定该Eureka实例的主机名
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/，http://peer2:8762/eureka/
+
+#官方文档：http://cloud.spring.io/spring-cloud-static/Dalston.SR4/multi/multi_spring-cloud-eureka-server.html
