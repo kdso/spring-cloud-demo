@@ -13,6 +13,8 @@
         <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-eureka-client</module>
         <module>spring-cloud-eureka-service-single</module>
+        <module>spring-cloud-service-ribbon</module>
+        <module>spring-cloud-service-feign</module>
     </modules>
 
     <parent>

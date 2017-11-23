@@ -7,6 +7,8 @@ eureka:
   instance:
     hostname: peer1 # 指定该Eureka实例的主机名
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://peer2:8762/eureka/，http://peer3:8763/eureka/
 
@@ -19,6 +21,8 @@ eureka:
   instance:
     hostname: peer2 # 指定该Eureka实例的主机名
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://peer1:8761/eureka/，http://peer3:8763/eureka/
 ...
@@ -31,6 +35,8 @@ eureka:
   instance:
     hostname: peer3 # 指定该Eureka实例的主机名
   client:
+    registerWithEureka: false
+    fetchRegistry: false
     serviceUrl:
       defaultZone: http://peer1:8761/eureka/，http://peer2:8762/eureka/
 

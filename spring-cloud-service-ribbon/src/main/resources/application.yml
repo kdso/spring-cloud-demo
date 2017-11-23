@@ -3,8 +3,9 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8763
+  port: 8764
 spring:
   application:
   #服务与服务之间相互调用一般都是根据这个name
-    name: service-hi
+    name: service-ribbon
+

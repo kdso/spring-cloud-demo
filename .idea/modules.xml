@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server/spring-cloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-service-single/spring-cloud-eureka-service-single.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-service-single/spring-cloud-eureka-service-single.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-feign/spring-cloud-service-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-service-feign/spring-cloud-service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-service-ribbon/spring-cloud-service-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud-service-ribbon/spring-cloud-service-ribbon.iml" />
     </modules>
   </component>
 </project>
