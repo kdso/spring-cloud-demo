@@ -15,6 +15,7 @@
         <module>spring-cloud-eureka-service-single</module>
         <module>spring-cloud-service-ribbon</module>
         <module>spring-cloud-service-feign</module>
+        <module>spring-cloud-hystrix</module>
     </modules>
 
     <parent>
