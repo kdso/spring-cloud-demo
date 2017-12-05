@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by asus on 2017/11/22.
+ * Created by kdso on 2017/11/22.
  */
 @SpringBootApplication
 @EnableDiscoveryClient //通过@EnableDiscoveryClient向服务中心注册

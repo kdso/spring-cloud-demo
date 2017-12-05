@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by asus on 2017/11/23.
+ * Created by kdso on 2017/11/23.
  */
 @Service
 public class HelloService {

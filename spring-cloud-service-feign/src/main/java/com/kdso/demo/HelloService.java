@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * Created by asus on 2017/11/23.
+ * Created by kdso on 2017/11/23.
  */
 //通过@ FeignClient（“服务名”），来指定调用哪个服务
 @FeignClient(value = "service-hi")

@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-config-server" />
         <module name="spring-cloud-eureka-client" />
         <module name="spring-cloud-eureka-server" />
         <module name="spring-cloud-eureka-service-single" />
         <module name="spring-cloud-hystrix" />
         <module name="spring-cloud-service-feign" />
         <module name="spring-cloud-service-ribbon" />
+        <module name="spring-cloud-service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-cloud-config-server" target="1.6" />
       <module name="spring-cloud-demo" target="1.6" />
       <module name="spring-cloud-eureka-client" target="1.6" />
       <module name="spring-cloud-eureka-server" target="1.6" />
@@ -23,6 +26,7 @@
       <module name="spring-cloud-hystrix" target="1.6" />
       <module name="spring-cloud-service-feign" target="1.6" />
       <module name="spring-cloud-service-ribbon" target="1.6" />
+      <module name="spring-cloud-service-zuul" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

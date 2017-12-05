@@ -16,6 +16,8 @@
         <module>spring-cloud-service-ribbon</module>
         <module>spring-cloud-service-feign</module>
         <module>spring-cloud-hystrix</module>
+        <module>spring-cloud-service-zuul</module>
+        <module>spring-cloud-config-server</module>
     </modules>
 
     <parent>
